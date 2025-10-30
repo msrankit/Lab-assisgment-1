@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ansh - Bhoriya</title>
+</head>
+<style>
+    img{
+        border-radius: 10%;
+        background-position: center;
+    }
+</style>
+<body>
+    <header>
+    <h1>Ansh Bhoriya</h1>
+       <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+       </ul> 
+
+       <h1>Welcome to My Portfolio</h1>
+       <p>Hello! I am a web development student. This is my personal portfolio website</p>
+    </header>
+
+    <main id="about">
+        <h1>About me </h1>
+        <p>I am Ansh bhoriya from delhi. i am recently studing in KR manglam university. I have completed my class 12 from dwarka international school.Curently i am learing html,python.</p>
+        <img  width="500" height="300" src="https://scontent-del1-2.cdninstagram.com/v/t1.15752-9/553202720_721185060933836_5733090868044902652_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=wCE02-Jt8AIQ7kNvwHIj8xp&_nc_oc=Adk8ONpL8B6TQoJC6_ACybfcz7GdN1ZLOtbiG_3ABDpUFWNsy-LuGgACFab-eqcrc0s&_nc_zt=23&_nc_ht=scontent-del1-2.cdninstagram.com&oh=03_Q7cD3QGKDrwAh3srHBbveh9c9mxoHTXk9i09ayb7dt4SsApd3w&oe=69003412" alt="">
+        
+        <p>I am passionate about learning web development and building creative projects</p>
+    </main>
+
+    <main id="project">
+       
+       <table border="1">
+        <thead>
+            <tr>
+                <td>Skill</td>
+                <td>Level</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+        </tbody>
+       </table>
+       <br>
+       <br>
+    </main>
+
+    <main id="contact">
+          <form action="">
+          
+            <br>
+            <br>
+
+            <label for="name"> Ansh Bhoriya :</label>
+            
+
+            <br>
+            <br>
+
+          
+            <br>
+            <br>
+
+            <label for="message"> Message :</label>
+            <br>
+            
+            <label for="contact number">83760xxx</label>
+          
+
+          <br>
+          <br>
+          <button type="submit">Send</button>
+          </form>
+    </main>
+
+</body>
+</html>
